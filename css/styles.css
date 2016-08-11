@@ -1,0 +1,427 @@
+
+/****** RESET *******/
+/******       *******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/****** HEADER *******/
+/******        *******/
+
+
+body {
+	font-family: 'Merriweather', serif;
+}
+.main-header {
+	background-color: #2D3945;
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	font-size: 1.1em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+/****** HEAD*******/
+/******       *******/
+
+ 
+ .form-title {
+ 	color: #2D3945;
+ 	font-size: 1.2em;
+ 	text-align: center;
+ 	padding-top: 30px;
+ 	margin-bottom: 15px;
+ 	font-weight: 600;
+ }
+
+ .form-text {
+ 	margin-bottom: 35px;
+ }
+
+ p {
+ 	color: #CBCED1;
+ 	text-align: center;
+ 	font-weight: lighter;
+ 	margin-bottom: 30px;
+ 	font-size: .9em;
+ 	line-height: 1.2em;
+ }
+
+ .border-down {
+ 	border-bottom: 2px solid #2D3945;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ 	margin-bottom: 30px;
+ }
+
+.border-up {
+	border-bottom: 4px solid #2D3945;
+ 	margin: 5px auto;
+  	overflow: hidden;
+}
+
+
+/****** FORM  *******/
+/******       *******/
+
+
+.form-h1 {
+	font-size: 1.1em;
+	font-weight: 600;
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+label {
+	font-size: .9em;
+	color: #2D3945;
+	font-weight: 300;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select  {
+	background-color: #EFF0F1;
+	border: none;
+	font-size: .9em;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 100%;
+	min-height: 50px;
+	border-radius: 5px;
+}
+
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 1em;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+}
+
+
+.contact-info {
+	border-bottom: 2px solid #2d3945;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+#newsletter, #newsletter-format, #newsletter-comment {
+	text-align: left;
+	margin-left: 20px;
+	color: #495D70;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+#zip {
+	margin-bottom: 30px;
+	width: 55%;
+	float: left; 
+}
+
+#zipper {
+	float: left;
+	margin-right:  50%;
+}
+
+
+/****** FORM FOCUS *******/
+/******            *******/
+
+textarea:focus {
+	border: 2px solid #2D3945;
+	outline: none;
+}
+
+input:focus, select:focus {
+	border: 2px solid #2D3945 ;
+	outline: none;
+}
+
+
+/****** OPTION FIELD *******/
+/******              *******/
+
+select {
+  color: gray;
+  padding-left: 15px;
+  height: 50px;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: #2D3945;
+}
+
+
+/****** CHECKBOX/RADIO  *******/
+/******                 *******/
+
+input[type="checkbox"] {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+}
+
+input[type="radio"] {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+}
+
+
+
+/****** BOTTOM PART FORM  *******/
+/******                   *******/
+
+textarea {
+	margin-top: 5px;
+	resize: none;
+	min-height: 100px;
+	width: 100%;
+}
+
+button {
+	background-color: #4EBBB5;
+	border: none;
+	border-radius: 5px;
+	min-height: 60px;
+	width: 100%;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 500;
+	font-family: 'Merriweather';
+}
+
+.form-h1-down {
+	margin-bottom: -10px;
+	margin-left: 15px;
+	font-size: 1.1em;
+}
+
+#button {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#textbox {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+#bottom-text {
+	margin-top: 25px;
+	margin-bottom: 200px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.radio {
+	color: #495D70;
+}
+
+.select {
+	color: #495D70;
+}
+
+
+/****** WEBKIT/INPUT FIELDS *******/
+/******                     *******/
+
+
+::-webkit-input-placeholder {
+   text-align: right;
+   font-style: italic;
+   font-size: 13px;  
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: right;
+   font-style: italic;
+   font-size: 13px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: right; 
+   font-style: italic; 
+   font-size: 13px;
+}
+
+:-ms-input-placeholder {  
+   text-align: right; 
+   font-style: italic;
+   font-size: 13px;
+}
+
+
+                             /****** MEDIA  *******/
+                             /******        *******/
+
+
+@media (min-width: 768px) {
+	
+	#wrapper {
+		width: 600px;
+		margin: 0 auto;
+	}
+š
+	.form-title {
+		font-size: 1.5em;
+		margin-top: 35px;
+	}
+
+	.form-text {
+		margin-bottom: 40px;
+	}
+
+	.form-h1 {
+		margin-top: 20px;
+		font-size: 1.1em;
+		padding-bottom: 15px;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	select  			{
+		width: 72%;
+		float: right; 
+
+	}
+
+	.responsive { 
+		text-align: right;
+	    clear: both;
+	    float:left;
+	    margin-right:15px;
+	    margin-top: 30px;
+
+	 }
+
+	#zipper {
+		text-align: right;
+	    clear: both;
+	    float:left;
+	    margin-right:15px;
+	    margin-top: 30px;
+	}
+
+	#zip {
+		float: left;
+		width: 30%;
+	}
+
+	#zipper {
+		margin-right: 98px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
