@@ -395,17 +395,13 @@ button {
 		text-align: right;
 	    clear: both;
 	    float:left;
-	    margin-right:15px;
+	    margin-right: 100px;
 	    margin-top: 30px;
 	}
 
 	#zip {
 		float: left;
 		width: 30%;
-	}
-
-	#zipper {
-		margin-right: 98px;
 	}
 
 }
